@@ -26,7 +26,7 @@ const recipeSchema = new mongoose.Schema({
   },
   imageUrl: {
     type: String,
-    default: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300'
+    default: 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'
   },
   creator: {
     type: mongoose.Schema.Types.ObjectId,
